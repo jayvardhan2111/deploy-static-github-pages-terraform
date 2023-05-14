@@ -1,0 +1,19 @@
+# Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfplan
+
+# Ignore override files as they are usually used to change Terraform behavior
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .terraform.lock.hcl files
+.terraform.lock.hcl
+
+# Exclude token.tf file
+code/
+token.tf
